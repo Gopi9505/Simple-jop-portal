@@ -1,0 +1,30 @@
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/apply.JPG);
+	background-size: cover;
+	background-position: center;
+}
+.main{
+	width: 800px;
+	background-color: lightblue;
+	position: absolute;
+	top: 10%;
+	left: 2%;
+    padding: 6px 10px;
+    border-radius: 12px;
+	}
+	.head{
+	margin-left: 10%;
+	color: black;
+	}
+.text{
+	margin-left: 10%;
+	float: left;
+}
+.text input{
+background-color: none;
+color: black;
+}
+.btn input{
+	background-color: green;
+	color: white;
+}

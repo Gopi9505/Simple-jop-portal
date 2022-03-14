@@ -1,0 +1,61 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body{
+	padding: 0;
+	margin: 0;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/login1.JPG ) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.login-box{
+	width: 280px
+	color: white;
+	position: absolute;
+ 	top: 40%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+	}
+
+.login-box h1{
+	float: left;
+	font-size: 50px;
+	border-bottom: 6px solid green;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	color: white;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid yellow;
+}
+.textbox i{
+	widows: 26px;
+	float: left;;
+	text-align: center;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: black;
+	font-size: 18px
+	width: 80px;
+	float: left;
+	margin: 0 10px;
+	font-size: 15px
+}
+.btn{
+	width: 100%;
+	background: none;
+	border: 1px solid blue;
+	color: white;
+	padding: 8px;
+
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
